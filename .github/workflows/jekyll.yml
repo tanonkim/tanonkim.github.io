@@ -29,7 +29,8 @@ concurrency:
 jobs:
   # Build job
   build:
-    runs-on: ubuntu-latest
+    # ubuntu-latest(26.04)는 고정한 setup-ruby가 지원하지 않는다
+    runs-on: ubuntu-24.04
     steps:
       - name: Checkout
         uses: actions/checkout@v4
