@@ -1,7 +1,7 @@
 ---
 title: "주문/결제에서 Kafka 이벤트를 적용하면서"
 description: "주문 확정을 Kafka 이벤트로 나누며 얻은 것과 대신 생긴 것"
-date: 2026-10-30 16:30:00 +0900
+date: 2026-10-30 16:20:00 +0900
 categories: [kafka, event-driven]
 tags: [kafka, spring-kafka, consumer-group, rebalance, idempotency, transactional-event]
 ---
